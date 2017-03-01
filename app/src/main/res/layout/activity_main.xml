@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:multipleBarListView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.reliance.multiplebarlistview.MainActivity">
+
+    <com.reliance.multiplebarlistview.MultipleBarListView
+
+        android:choiceMode="singleChoice"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:scrollbarSize="7dip"
+        android:scrollbars="vertical"
+        android:id="@+id/mlv_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        multipleBarListView:bar_layout_in_animation="@anim/barlayout_in_animation"
+        multipleBarListView:bar_layout_out_animation="@anim/barlayout_out_animation"
+        multipleBarListView:bar_layout="@layout/barlayout" />
+
+</RelativeLayout>

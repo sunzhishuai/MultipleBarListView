@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bar_layout" format="reference" />
+    <attr name="bar_layout_in_animation" format="reference" />
+    <attr name="bar_layout_out_animation" format="reference" />
+    <attr name="bar_bg" format="reference" />
+    <declare-styleable name="MultipleBarListView">
+        <attr name="bar_layout" />
+        <attr name="bar_bg" />
+        <attr name="bar_layout_in_animation"/>
+        <attr name="bar_layout_out_animation"/>
+    </declare-styleable>
+</resources>
